@@ -13,9 +13,12 @@ void bubblesort(){
 		flag =0;
 		for(j=9; j>i; j--){
 			if(a[j-1] > a[j]){
-				c = a[j-1];
-				a[j-1] = a[j];
-				a[j] = c;
+				// c = a[j-1];
+				// a[j-1] = a[j];
+				// a[j] = c;
+				a[j-1] = a[j-1] + a[j];
+				a[j] = a[j-1] - a[j];
+				a[j-1] = a[j-1] - a[j];
 				flag = 1;
 			}
 		}

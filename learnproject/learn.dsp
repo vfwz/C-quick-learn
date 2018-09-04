@@ -82,11 +82,11 @@ LINK32=link.exe
 # Name "learn - Win32 Debug"
 # Begin Source File
 
-SOURCE=.\learn.c
+SOURCE=.\bubblesort.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\test2.c
+SOURCE=.\learn.c
 # End Source File
 # End Target
 # End Project
