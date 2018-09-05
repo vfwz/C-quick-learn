@@ -88,5 +88,9 @@ SOURCE=.\bubblesort.c
 
 SOURCE=.\learn.c
 # End Source File
+# Begin Source File
+
+SOURCE=.\sizeof_learn.c
+# End Source File
 # End Target
 # End Project
